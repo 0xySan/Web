@@ -1,19 +1,27 @@
 <!DOCTYPE html>
-    <html lang="fr">
-        <head>
-            <meta charset="utf-8" />
-            <title>0xysan's personal website</title>
-            <link rel="stylesheet" href="main.css">
-        </head>
-        <body id="home">
-            <p>
-                content
-            </p>
-            <select>
-                <option>Light Mode</option>
-                <option>Dark Mode</option>
-                <option>Red Mode</option>
-                <option>Midnight Mode</option>
-            </select>            
-        </body>
-    </html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>0xysan's Personnal Website</title>
+    <!-- Default CSS file -->
+    <link id="theme-stylesheet" rel="stylesheet" href="RedMode.css">
+    <link rel="icon" href="image/FoxIc.ico" type="image/x-icon">
+</head>
+<body>
+    <img height="200px" src="image/Pdp.jpg" alt="My Profile pic :3" class="center">
+
+    <h1 class="center" >Hiiiii, this is 0xysan's Personnal Website :3</h1>
+    
+    <!-- Dropdown to select CSS file -->
+    <select id="css-selector">
+        <option value="LightMode.css">Light Mode</option>
+        <option selected="selected" value="RedMode.css">Red Mode</option>
+        <option value="DarkMode.css">Dark Mode</option>
+        <option value="MidnightMode.css">Midnight Mode</option>
+    </select>
+
+    <!-- Link to the external JavaScript file -->
+    <script src="main.js"></script>
+</body>
+</html>
