@@ -1,10 +1,7 @@
-const cssSelector = document.getElementById('css-selector');
-        const stylesheetLink = document.getElementById('theme-stylesheet');
+// Get the theme selector element
+const themeSelector = document.getElementById('themeSelector');
 
-        cssSelector.addEventListener('change', function() {
-            // Get the selected value from the dropdown
-            const selectedCSS = cssSelector.value;
-            
-            // Update the href attribute of the link tag to switch CSS files
-            stylesheetLink.href = selectedCSS;
+// Change theme based on the selected value
+themeSelector.addEventListener('change', function() {
+  document.documentElement.className = this.value;
 });

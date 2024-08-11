@@ -1,0 +1,50 @@
+:root {
+    --main-bg-color: rgb(39,40,34);
+    --main-text-color: rgb(203, 32, 94);
+    --footer-color: #1c1b1f;
+}
+
+:root.dark-mode {
+    --main-bg-color: rgb(54, 43, 72);
+    --main-text-color: rgb(254, 246, 255);
+    --footer-color: #1c1b1f;
+}
+
+:root.midnight-mode {
+    --main-bg-color: rgb(0,0,0);
+    --main-text-color: rgb(126, 58, 206);
+    --footer-color: #1c1b1f;
+}
+
+:root.light-mode {
+    --main-bg-color: rgb(242,243,245);
+    --main-text-color: rgb(76, 78, 83);
+    --footer-color: #1c1b1f;
+}
+
+body{
+    background-color: var(--main-bg-color);
+    color: var(--main-text-color);
+}
+
+select{
+    background-color: var(--main-bg-color);
+    border: 1px solid var(--main-bg-color);
+    color : var(--main-text-color);
+    position: absolute; 
+    top: 0;
+    margin-top: 15px;
+    margin-right: 15px; 
+    right: 0; 
+    width: 200px; 
+    text-align:right;
+    font: 15px cursive;
+    display: "Dark Mode";
+}
+  
+.center {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    text-align:center;
+}
