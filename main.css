@@ -52,3 +52,15 @@ select{
     margin-right: auto;
     text-align:center;
 }
+
+
+#pfp {
+    width: 200px;
+    height: 200px;
+    border-radius: 8px;
+    transition: transform 0.3s ease-in-out;
+}
+
+#pfp:hover {
+    transform: scale(1.05);
+}

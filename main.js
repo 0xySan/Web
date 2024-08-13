@@ -5,3 +5,8 @@ const themeSelector = document.getElementById('themeSelector');
 themeSelector.addEventListener('change', function() {
   document.documentElement.className = this.value;
 });
+
+document.getElementById( "Pfp" ).onclick = function() {
+  var URL = ""
+  window.open(URL, '_blank')
+};
