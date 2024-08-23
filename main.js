@@ -6,7 +6,11 @@ themeSelector.addEventListener('change', function() {
   document.documentElement.className = this.value;
 });
 
-document.getElementById( "Pfp" ).onclick = function() {
-  var URL = ""
-  window.open(URL, '_blank')
-};
+// Get the image element
+const img = document.getElementById('pfp');
+
+// Add click event listener to the image
+img.addEventListener('click', function() {
+  // Redirect to a different link
+  window.location.href = 'https://duckduckgo.com/?q=Canadian+Marble+Fox&iax=images&ia=images';
+});
